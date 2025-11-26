@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>5 Level Nested List with Attributes & Formatting</title>
+</head>
+<body>
+
+<h2>5 Level Nested List</h2>
+
+<ul type="circle"> <!-- Attribute: type -->
+    <li title="Top level item"><b>Level 1 — Bold Text</b>
+        <ul type="square"> <!-- Attribute: type -->
+            <li id="second-level"><i>Level 2 — Italic Text</i>
+                <ul class="third-list"> <!-- Attribute: class -->
+                    <li><u>Level 3 — Underlined</u>
+                        <ul type="disc"> <!-- Attribute: type -->
+                            <li lang="en">Level 4 — Highlighted (with lang attribute)
+                                <ul style="font-size: 14px;"> <!-- Attribute: style -->
+                                    <li><small><strong>Level 5 — Small + Bold</strong></small></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>
